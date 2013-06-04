@@ -1,0 +1,38 @@
+{
+  "name": "nodeshub-client",
+  "version": "1.0.0",
+  "description": "NodesHub command line client",
+  "homepage": "https://github.com/openhoat/nodeshub-client",
+  "main": "app.js",
+  "author": {
+    "name": "Olivier Penhoat",
+    "email": "openhoat@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/openhoat/nodeshub-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/openhoat/nodeshub-client/issues"
+  },
+  "licenses": [
+    {
+      "type": "EUPL",
+      "url": "https://github.com/openhoat/nodeshub-client/blob/master/EUPL-1.1.txt"
+    }
+  ],
+  "bin": {
+    "nhc": "./bin/nhc"
+  },
+  "dependencies": {
+    "node-zip": "1.0.1",
+    "colors": "0.6.0-1",
+    "form-data": "0.0.7",
+    "fs.walker": "0.0.6",
+    "read": "0.0.3",
+    "socket.io-client": "0.9.11",
+    "temp": "0.5.0",
+    "wsem": "0.0.5",
+    "profess": "0.0.4"
+  }
+}
